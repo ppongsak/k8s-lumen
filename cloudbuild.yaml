@@ -3,22 +3,23 @@ steps:
       args:
           [
               'build',
+              '--no-cache',
               '-t',
-              'gcr.io/$PROJECT_ID/k8s-centos-phpfpm-nginx-lumen:$REVISION_ID',
+              'gcr.io/$PROJECT_ID/k8s-centos-phpfpm-nginx-lumen:$COMMIT_SHA',
               '.',
           ]
     - name: 'gcr.io/cloud-builders/docker'
       args:
           [
               'push',
-              'gcr.io/$PROJECT_ID/k8s-centos-phpfpm-nginx-lumen:$REVISION_ID',
+              'gcr.io/$PROJECT_ID/k8s-centos-phpfpm-nginx-lumen:$COMMIT_SHA',
           ]
     - name: 'gcr.io/cloud-builders/kubectl'
       args:
           - 'set'
           - 'image'
           - 'deployments/k8s-lumen'
-          - 'k8s-centos-phpfpm-nginx-lumen=gcr.io/$PROJECT_ID/k8s-centos-phpfpm-nginx-lumen:$REVISION_ID'
+          - 'k8s-centos-phpfpm-nginx-lumen=gcr.io/$PROJECT_ID/k8s-centos-phpfpm-nginx-lumen:$COMMIT_SHA'
       env:
           - 'CLOUDSDK_COMPUTE_ZONE=asia-southeast1-b'
           - 'CLOUDSDK_CONTAINER_CLUSTER=rebate-cluster-dev'
