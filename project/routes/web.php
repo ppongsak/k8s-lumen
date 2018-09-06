@@ -12,5 +12,5 @@
 */
 
 $router->get('/', function () use ($router) {
-    return 'test replicas 2';
+    return 'gogo lumen';
 });
