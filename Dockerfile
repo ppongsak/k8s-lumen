@@ -6,6 +6,8 @@ WORKDIR /var/www/html
 
 COPY ./project .
 
+RUN pwd && ls -lah
+
 RUN rm -rf ./composer.lock
 
 RUN composer install
