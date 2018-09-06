@@ -1,21 +1,15 @@
 FROM pongsak/centos-phpfpm-nginx-lumen:2.0
 
-MAINTAINER "Pongsak Prabparn" <pongsak@rebatemango.com>
-
 WORKDIR /var/www/html
 
 COPY ./project .
 
-RUN pwd && ls -lah
-
-RUN rm -rf ./composer.lock
-
-RUN composer install
-
-RUN chmod -R 777 ./storage
-
-
-RUN cp -R .env.example  .env
+RUN pwd && ls -lah ; \
+    rm -f /var/www/html/composer.lock ; \
+    rm -f ./.gitignore ; \ 
+    composer install; \
+    chmod -R 777 /var/www/html/storage ; \
+    pwd && ls -lah
 
 # Set the port to 80 
 EXPOSE 80
