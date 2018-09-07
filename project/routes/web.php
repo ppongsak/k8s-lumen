@@ -12,5 +12,5 @@
 */
 
 $router->get('/', function () use ($router) {
-    return 'gogo lumen';
+    return 'lumen x k8s';
 });

@@ -10,6 +10,7 @@ CMD pwd && ls -lah ; \
     composer install; \
     chmod -R 777 /var/www/html/storage ; \
     pwd && ls -lah; \
+    php artisan migrate; \
     supervisord -n
 
 # Set the port to 80 
