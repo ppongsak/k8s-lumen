@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rebatemango-dev",
+  "private_key_id": "eb9d189f2b75a4431afa0656b308843f96643376",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDg5k89W5YYKLYi\ntOZTlkakxK21W7IANFY9/G+a6Z9pwHS+3UmbAJ6i6ub8qFWbaUSezU32BgpSog04\noZOwjSfas/wRQ4QPgKvEYHDp2UfzHMV/35pA9xyrWUKEe5xZt0W3SCaXt5rjVo9e\nkDvN4T8YMiPntAI9eocd5GXxtyVWHLXl3qJr/xGZ1I3q9bzLH51hChfeUbsaRYp0\ntEIHGGhg/oH7bNZVMmw4IscdDflK8fH/nGF0OYfDxFPgQRE7xr2o86QkWE2a4+E/\n4OzPSidcEgNoLUZzeB067TTt9Iqen+dPpoSpO4blrhy30vodPWUMZjI5XEzeSYob\nOMx6PwI5AgMBAAECggEANIpJf8WaMomsRz5owqVMWqjiBgjmdDrF3RRQxGmIxu1h\nuMc8r1v9M4VaMjNnUHfOwqSm7m9p0PUvzoec17WaVnMO07+opfCC8E0xg8gxkV+q\n2h1UTZINXhBrxESWebUhsdhGv9HyeuLZepeKiSXylgX8smAw18j8sOSPVmFZdRyu\nwtaliqNR9rJPUCTR7qSAf3tWurwb0Zgprrgz8XHanW7+/VTbApiQdlxJuyeZ2Imu\n/9ntcY1RJgjaG/WtBmjSgTn4uvnGNaZjmobflCOEn8HsQSOSpFClHOyfiw7kB2rB\niKO28XG97IpPnskUHhRJ1Up2ssIuk63TI+xQtB6IawKBgQD6C9jSKdhYDK9qVlFx\nYyhyzkADboa+b3cO0T2QHb3OJL39HkLKtXTcqbsBg0ZttNidLt3//gx+8qWYWgU/\nTSeHhS3ucackkJGIGaGqkXhW6/t4FPDIB7thaH/VwJLkNq9ZEHcJXf3u2qrgba7M\nMwxcyINSOUO9sjI0I2yGKfoYuwKBgQDmQS6DahLq6P6ueqF3rslXXjbeWlORYn+1\nM3RgXw2jBGdNuPEW6UJt/bOW9a2tte0QIpmw3ixjKRY8b0E/AdhBTMWAYIb0XQ2l\nyhm8b2Cv2m4TfOgkbsaMwsXZYFrrJbz9g/YYZcXkyR8SkfpUVgP9E+saCKAbb1Wh\nmWcfHyYLmwKBgQCcJo/V1zn66pkVQCiGNdVJtNG3EuvkuzlPsI3QlTI2LS3Uh3RQ\noPcE4p4dOLzfwANSTbVnq2BkWuXc+cKzIFyiPiJL+P/XTs0DgHY8TbIoHiChgfpI\nAMQc9aR3eVaCXEAuz6B24hK1eisiEn0JmouK2dFgpNBQA5tkggbA1jAQBwKBgFPF\nu0qMuT1GcALDEyQcL5zd5lCXxHfMwnIGunylmKyK2Zrpgq23SDgEaeauk/XzjsCk\nFg7Hhpa9SB3MzIxD+44mhGTkubUGdgSvtxVb4G2apxnoA/3dX9eutZUU/X84R75k\n2JCf1pQaqHd1LQKqGOFm8c6S/M1+gEU/Lsmf55OpAoGBALN27G/bnj2NCDANDfut\nhaYL9yDTSiW8J7y0lgNKkhIIglo9BENaVKESExT+kXCfHs4H/8ax3PQBzRB8Rxyg\nXxYOb6N1k/lH/ug29s2XZTl1THpFRGuyOTWCEW8qeUShXcFl5CoG0jePsq+8u/8a\noWHpWOZhVfKaUpcx+YIFHf+r\n-----END PRIVATE KEY-----\n",
+  "client_email": "stackdriver@rebatemango-dev.iam.gserviceaccount.com",
+  "client_id": "102801987374910105479",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/stackdriver%40rebatemango-dev.iam.gserviceaccount.com"
+}
