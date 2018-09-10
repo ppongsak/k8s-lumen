@@ -35,15 +35,14 @@ class LogsController extends Controller
         # Selects the log to write to
         $logger = $logging->logger($logName);
 
-        # The data to log
-        $text = 'Hello, world!';
+        for ($i = 1; $i <= 1000; $i++) {
+            # The data to log
+            $text = 'Hello, world!' . ' : ' . $i;
+            $entry = $logger->entry($text);
+            # Creates the log entry
+            $logger->write($entry);
+        }
 
-        # Creates the log entry
-        $entry = $logger->entry($text);
-
-        # Writes the log entry
-        $logger->write($entry);
-
-        return 'Logged ' . $text;
+        return 'done';
     }
 }
